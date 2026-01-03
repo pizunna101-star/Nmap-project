@@ -33,3 +33,71 @@ nmap-sn 192.168.56.0/24
 This step is critical in large networks to avoid scanning inactive systems and triggering unnecessary alerts.
 <img width="568" height="227" alt="image" src="https://github.com/user-attachments/assets/7bfd22a0-b00d-4284-847c-69c568f29df4" />
 
+---
+
+### Phase 2: Basic Port Scanning
+**Objective**
+Identify open TCP ports on a target system.
+
+**Command**
+nmap 192.168.56.102
+
+**Explanation**
+* Default scan
+* Scans the most common 1000 TCP ports
+
+**Analyst Insight**
+Open ports reveal potential attack surfaces. Even a single exposed service can become an entry point if
+misconfigured.
+
+<img width="529" height="398" alt="image" src="https://github.com/user-attachments/assets/55822b1b-175e-4fd5-bcd4-39457fdd34a0" />
+---
+
+### Phase 3: Full TCP Port Scan
+**Objective**
+Ensure no open ports are missed.
+
+**Command**
+nmap-p- 192.168.1.10
+
+**Explanation**
+* -p- : Scans all 65,535 TCP ports
+
+**Analyst Insight**
+Attackers often hide services on uncommon ports. A full scan removes blind spots during reconnaissance.
+
+<img width="481" height="407" alt="image" src="https://github.com/user-attachments/assets/97a68f13-6d0c-4960-ab51-a9eeea1c094c" />
+---
+
+### Phase 4: Service and Version Detection
+**Objective**
+Identify what services are running and their versions.
+
+**Command**
+nmap-sV 192.168.56.102
+
+**Explanation**
+* -sV : Detects service versions
+
+**Analyst Insight**
+Knowing the exact version helps correlate services with known vulnerabilities (CVEs).
+
+<img width="116" height="361" alt="image" src="https://github.com/user-attachments/assets/e72f68d4-0823-4327-9303-09a552a85aed" />
+---
+
+### Phase 5: OS Detection
+**Objective**
+Determine the operating system of the target.
+
+**Command**
+nmap-O 192.168.56.102
+
+**Explanation**
+* -O : OS fingerprinting
+
+**Analyst Insight**
+OS identification helps attackers and defenders tailor their strategies. Defenders use this to validate asset
+inventories.
+
+<img width="428" height="79" alt="image" src="https://github.com/user-attachments/assets/e01945d2-9522-4da4-a90c-89772c2357f1" />
+
