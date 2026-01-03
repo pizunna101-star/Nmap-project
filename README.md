@@ -100,4 +100,20 @@ OS identification helps attackers and defenders tailor their strategies. Defende
 inventories.
 
 <img width="428" height="79" alt="image" src="https://github.com/user-attachments/assets/e01945d2-9522-4da4-a90c-89772c2357f1" />
+---
 
+### Phase 6: Aggressive Scan (Combined Intelligence)
+**Objective**
+Gather maximum information in a single scan.
+
+**Command**
+nmap-h 192.168.56.102
+
+**Explanation**
+Includes: - OS detection - Version detection - Script scanning - Traceroute
+
+**Analyst Insight**
+While powerful, aggressive scans are noisy and should be used cautiously in production environments.
+
+<img width="213" height="407" alt="image" src="https://github.com/user-attachments/assets/e9dfcdcb-9765-42d0-81fd-74181e48f7d0" />
+---
