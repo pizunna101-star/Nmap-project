@@ -117,3 +117,64 @@ While powerful, aggressive scans are noisy and should be used cautiously in prod
 
 <img width="213" height="407" alt="image" src="https://github.com/user-attachments/assets/e9dfcdcb-9765-42d0-81fd-74181e48f7d0" />
 ---
+
+### Phase 7: Nmap Scripting Engine (NSE)
+**Objective**
+Use scripts to detect vulnerabilities and misconfigurations.
+
+**Command**
+nmap--script=vuln 192.168.56.102
+
+**Explanation** 
+Runs vulnerability detection scripts
+
+**Analyst Insight**
+This bridges reconnaissance and vulnerability assessment, making Nmap more than just a scanner.
+
+<img width="206" height="411" alt="image" src="https://github.com/user-attachments/assets/ca2115fa-4d3a-41a9-a45e-c639a14a4fbe" />
+<img width="203" height="407" alt="image" src="https://github.com/user-attachments/assets/813e5789-0c04-4649-aa65-6bed6c103340" />
+<img width="158" height="394" alt="image" src="https://github.com/user-attachments/assets/44e826f4-b126-426f-89f3-ece0f8f5b04d" />
+
+---
+
+### Phase 8: Output Management
+**Objective**
+Save scan results for reporting and analysis.
+
+**Commands**
+nmap-oA initial_scan 192.168.56.102
+
+**Creates** 
+nmap (normal output) - 
+xml (machine‑readable) - 
+
+**Analyst Insight**
+gnmap (grepable)
+Proper documentation is essential for audits, reports, and collaboration.
+
+<img width="434" height="338" alt="image" src="https://github.com/user-attachments/assets/ebcc8670-e5d6-4c16-a6c8-ae0fc5bbed47" />
+
+---
+
+**Common Beginner Mistakes**
+ 
+* Scanning unauthorized systems
+* Ignoring scan timing options
+* Misinterpreting filtered ports
+* Running aggressive scans blindly
+
+---
+
+**Key Skills Demonstrated**
+* Network reconnaissance
+* Attack surface analysis
+* Tool proficiency (Nmap)
+* Security documentation
+* Technical communication
+* These are core skills every cybersecurity professional must possess
+
+### Conclusion
+
+This Nmap portfolio demonstrates not only technical capability but also structured thinking and clarity in
+communication. As complexity increases, future portfolio sections will expand into vulnerability exploitation,
+detection engineering, and defensive monitoring.
