@@ -82,7 +82,8 @@ nmap-sV 192.168.56.102
 **Analyst Insight**
 Knowing the exact version helps correlate services with known vulnerabilities (CVEs).
 
-<img width="116" height="361" alt="image" src="https://github.com/user-attachments/assets/e72f68d4-0823-4327-9303-09a552a85aed" />
+<img width="496" height="323" alt="image" src="https://github.com/user-attachments/assets/d3b4cd8c-7d4d-4ad0-b11d-bc69f4c28fa1" />
+
 ---
 
 ### Phase 5: OS Detection
@@ -99,7 +100,8 @@ nmap-O 192.168.56.102
 OS identification helps attackers and defenders tailor their strategies. Defenders use this to validate asset
 inventories.
 
-<img width="428" height="79" alt="image" src="https://github.com/user-attachments/assets/e01945d2-9522-4da4-a90c-89772c2357f1" />
+<img width="359" height="356" alt="image" src="https://github.com/user-attachments/assets/c21755d3-aaf4-431e-bc03-ef508e27a7b7" />
+
 ---
 
 ### Phase 6: Aggressive Scan (Combined Intelligence)
@@ -115,7 +117,11 @@ Includes: - OS detection - Version detection - Script scanning - Traceroute
 **Analyst Insight**
 While powerful, aggressive scans are noisy and should be used cautiously in production environments.
 
-<img width="213" height="407" alt="image" src="https://github.com/user-attachments/assets/e9dfcdcb-9765-42d0-81fd-74181e48f7d0" />
+<img width="605" height="352" alt="image" src="https://github.com/user-attachments/assets/3f3a0a2b-0e84-463e-b3ab-98b82805e109" />
+<img width="667" height="405" alt="image" src="https://github.com/user-attachments/assets/8e9c3a14-aa2f-4380-bd9e-aee2c06f84c0" />
+<img width="661" height="380" alt="image" src="https://github.com/user-attachments/assets/2535479d-38d6-4b44-82a1-b73916ed1101" />
+<img width="524" height="401" alt="image" src="https://github.com/user-attachments/assets/894c7ca4-46c2-46bc-9a72-66cfc4f0b4c8" />
+
 ---
 
 ### Phase 7: Nmap Scripting Engine (NSE)
