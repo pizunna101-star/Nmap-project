@@ -137,9 +137,10 @@ Runs vulnerability detection scripts
 **Analyst Insight**
 This bridges reconnaissance and vulnerability assessment, making Nmap more than just a scanner.
 
-<img width="206" height="411" alt="image" src="https://github.com/user-attachments/assets/ca2115fa-4d3a-41a9-a45e-c639a14a4fbe" />
-<img width="203" height="407" alt="image" src="https://github.com/user-attachments/assets/813e5789-0c04-4649-aa65-6bed6c103340" />
-<img width="158" height="394" alt="image" src="https://github.com/user-attachments/assets/44e826f4-b126-426f-89f3-ece0f8f5b04d" />
+<img width="477" height="408" alt="image" src="https://github.com/user-attachments/assets/dd8e343b-451f-4bb2-877b-5a82e5cbf672" />
+<img width="445" height="395" alt="image" src="https://github.com/user-attachments/assets/cff17876-43ee-4415-af52-daec29581b60" />
+<img width="599" height="403" alt="image" src="https://github.com/user-attachments/assets/3a1527ab-587b-4f2a-8a76-bbc4b12a342b" />
+<img width="592" height="405" alt="image" src="https://github.com/user-attachments/assets/2ebd1ff1-e9d2-4417-8891-9bb05086a21a" />
 
 ---
 
